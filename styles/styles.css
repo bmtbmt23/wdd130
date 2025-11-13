@@ -1,3 +1,12 @@
+:root{
+    --heading-background-color: #080;
+    --heading-text-color: #808080;
+    --heading-font: 'Montserrat', Healvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+
+}
+
 nav {background-color: darkblue;
     padding: 10px;
 
