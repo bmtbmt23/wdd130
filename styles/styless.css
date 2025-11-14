@@ -1,3 +1,39 @@
+:root{
+    --heading-background-color: #080;
+    --heading-text-color: #808080;
+    --heading-font: 'Montserrat', Healvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {background-color: darkblue;
+    padding: 10px;
+
+}
+nav a {
+    color:white;
+    display: block;
+    padding: 20px;
+}
+h1 {
+    color:darkblue
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 5px gray;
+}
+
 main { 
     max-width: 840px;
 }
@@ -5,10 +41,11 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb( 0 0 0 /0.2); /* 🐊 */
+    border: 1px solid rgb( 0 0 0 /0.2); /* 🐊 */;
     padding: 1rem;
-    background-color: #8e6;
-    color: #2aa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)/* ✅ valid */;
+    background-color: lightblue;
+    color: #000;
     text-align: center;
 
 }
@@ -16,11 +53,23 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 66px;
+    left: 200px;
 }
 
 main img {
-    width: 150px;
+    width: 100px;
     height: auto;
+    border: 1px solid rgb( 0 0 0 /0.2) /* 🐊 */; 
+    padding: 2px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3)/* ✅ added */;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
@@ -29,6 +78,16 @@ p {
 
 footer{
     margin-top: 15px;
-    border-top: 1px solid darkolivegreen;
+    border-top: 1px solid #000;
     text-align: center;
 }
+
+/* Class selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
+
