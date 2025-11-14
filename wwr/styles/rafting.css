@@ -13,6 +13,16 @@
     box-sizing: border-box;
 }
 
+header{ 
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+
+.hero {
+    position: relative;
+}
+
 body {
     font-family: var(--body-font);
     color: var(--secondary-color);
