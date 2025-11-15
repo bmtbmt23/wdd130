@@ -1,5 +1,5 @@
 :root { 
-    --primary-color: #90EE90; /* light green */
+    --primary-color: #006400; /* dark green */
     --secondary-color: #000; /* Black */
     --accent1-color: #556b2f ; /* Dark Olive Green */
     --accent2-color: #000; /* black */
@@ -16,11 +16,6 @@
 header{ 
     background-color: var(--primary-color);
     color: var(--accent2-color);
-}
-
-
-.hero {
-    position: relative;
 }
 
 body {
@@ -57,7 +52,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 { 
+.hero h1 { 
     position: absolute;
     top: 20px;
     width: 100%;
@@ -72,3 +67,4 @@ h1 {
     float: right;
     width: 125px;
 }
+
