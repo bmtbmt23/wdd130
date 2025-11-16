@@ -14,7 +14,7 @@
 }
 
 header{ 
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     color: var(--accent2-color);
 }
 
@@ -56,11 +56,12 @@ nav, p, section, article {
     position: absolute;
     top: 20px;
     width: 100%;
-    padding: 16px;
+    padding: 5px 5px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: var(--accent1-color);
-    color: #fff 
+    color: #fff; 
+    font-size: 2rem;
 }
 
 .hero article img {
@@ -68,3 +69,16 @@ nav, p, section, article {
     width: 125px;
 }
 
+.hero article{
+    position: absolute;
+    top: 140px;
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.9;
+    background-color: #556b2f ; /* Dark Olive Green */
+    color: #f0f0f0;
+    bottom: 200px;
+    padding: 4px;
+    font-size: 0.9rem;
+}
