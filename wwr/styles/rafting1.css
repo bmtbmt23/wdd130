@@ -33,11 +33,9 @@ body .h1 {
 }
 
 iframe {
-    width: 200px;
-    height: 200px;
-    border: 4px solid #000;   
-    border-radius: 12px;      
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
+    width: 600px;
+    height: 450px;
+    border: 0;
 }
 
 h1 {
@@ -56,7 +54,7 @@ div {
 }
 
 figure {
-    width: 200x;
+    width: 200px;
     margin:30px auto;
     padding: 20px;
     text-align: center; 
@@ -66,7 +64,7 @@ figure {
 
 section figure{
     display: inline-block;
-    margin: 15-x;
+    margin: 15px;
 }
  
 nav img{
@@ -76,9 +74,9 @@ nav img{
 
 .socialmedia{
 
-    position: right;
     display: flex;
-    right: 20px;
+    justify-content: flex-end;
+    gap: 10px;
 }
 
 form {
@@ -95,9 +93,9 @@ form {
 }
 
 input, textarea, select  {
-    padding: 0.5rem;;
+    padding: 0.5rem;
     width: 100px;
-    box-sizing: 300px;
+    box-sizing: border-box;
     margin-bottom: 1rem;
 }
 
