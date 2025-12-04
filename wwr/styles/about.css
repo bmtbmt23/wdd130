@@ -1,0 +1,154 @@
+/* About page CSS */
+:root { 
+    --primary-color: #006400; /* dark green */
+    --secondary-color: #000; /* Black */
+    --accent1-color: #556b2f ; /* Dark Olive Green */
+    --accent2-color: #ffff; /* black */
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{ 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent-color);
+    color: var(--accent2-color);
+    padding: 1rem 2rem;
+
+}
+header .logo{ 
+    height: 60px;
+}
+
+.side-header {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--secondary-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero { 
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 { 
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 5px 5px;
+    text-align: center;
+    opacity: 0.8;
+    background-color: var(--accent1-color);
+    color: #fff; 
+    font-size: 2rem;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
+.hero article{
+    position: absolute;
+    top: 40px;
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.9;
+    background-color: #556b2f ; /* Dark Olive Green */
+    color: #f0f0f0;
+    bottom: 200px;
+    padding: 4px;
+    font-size: 0.9rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #556b2f;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+}
+
+.history{
+    padding: 2 rem;
+    background: #f9f9f9;
+}
+
+.history h2 {
+    text-align: center;
+    margin: 1.5rem;
+    color: #004466;
+}
+
+.history-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+figure {
+    width: 200x;
+    margin:30px auto;
+    padding: 20px;
+    text-align: center; 
+    background-color: olive; 
+
+}
+
+section figure{
+    display: inline-block;
+    margin: 15-x;
+}
+
+/* Rafting contact CSS */
+
