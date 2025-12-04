@@ -14,14 +14,24 @@
 }
 
 header{ 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--accent-color);
     color: var(--accent2-color);
+    padding: 1rem 2rem;
+
 }
+header .logo{ 
+    height: 60px;
+}
+
 .side-header {
     display: grid;
     grid-template-columns: 120px 1fr 1fr;
     align-items: center;
 }
+
 .main-nav ul{
     display: flex;
     list-style: none;
@@ -91,4 +101,50 @@ nav, p, section, article {
     bottom: 200px;
     padding: 4px;
     font-size: 0.9rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #556b2f;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+}
+
+.history{
+    padding: 2 rem;
+    background: #f9f9f9;
+}
+
+.history h2 {
+    text-align: center;
+    margin: 1.5rem;
+    color: #004466;
+}
+
+.history-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+figure {
+    width: 200x;
+    margin:30px auto;
+    padding: 20px;
+    text-align: center; 
+    background-color: olive; 
+
+}
+
+section figure{
+    display: inline-block;
+    margin: 15-x;
 }

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{ 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color:  olivedrab;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-position: center;
+    color: var(--accent2-color);
+    padding: 1rem 2rem;
+}   
+
+body{
+    background-color: #f4f4f4; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+    height: 100rem;             
+    margin: 0;
+}
+
+body .h1 {
+    justify-self: end;
+}
+
+iframe {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #000;   
+    border-radius: 12px;      
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+}
+
+
+div { 
+    width: 200px;
+    height: 200px;
+}
+
+figure {
+    width: 200x;
+    margin:30px auto;
+    padding: 20px;
+    text-align: center; 
+    background-color: olivedrab; 
+
+}
+
+section figure{
+    display: inline-block;
+    margin: 15-x;
+}
+ 
+nav img{
+    justify-content: center;
+    padding: 15px;
+}
+
+.socialmedia{
+
+    position: right;
+    display: flex;
+    right: 20px;
+}
+
+form {
+
+    background-color:  olivedrab;
+    color: #111;
+    max-width: 500%;
+    padding: 1rem;
+    border-radius: 8px;
+    float: right;
+    margin: 2rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+input, textarea, select  {
+    padding: 0.5rem;;
+    width: 100px;
+    box-sizing: 300px;
+    margin-bottom: 1rem;
+}
+
+button { 
+    background-color: navy;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    border-radius: .9rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    width: 100%; 
+    padding: 0.7rem;
+    cursor: pointer;
+
+}
+
+.box {
+    border: 2px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+}
+form.box {
+    max-width: 500px;        
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 3px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: olivedrab;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem;
+    margin-top: 300px
+}
+
+form.box button {
+    grid-column: span 2;  
+    float: center;     
+}
+
+.tittle-box {
+    position: absolute;
+    top: 50%;                   
+    right: 20px;
+    transform: translateY(-50%);                
+ 
+}
+
+.tittle-box h1 {
+    color: #000;
+    font-size: 36px;
+}
+
+.tittle-box p{
+    margin: 4px 0;
+    font-size: 18px;
+    color: #000;
+}
