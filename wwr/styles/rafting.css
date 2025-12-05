@@ -62,7 +62,7 @@ nav, p, section, article {
 }
 .socialmedia a{
     font-weight: bold;
-    color: var(--accent2-color);
+    color: #e4d6d6;
     text-decoration: none;
 }
 
@@ -133,8 +133,14 @@ section figure{
     margin: 15px;
 }
 
-nav a {
-    color: #FFFFF0;
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    justify-content: flex-end;
     font-weight: bold;
 }
 
+nav a{
+    color: #efe8e8;
+}
