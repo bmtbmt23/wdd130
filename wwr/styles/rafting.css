@@ -64,6 +64,9 @@ nav, p, section, article {
 }
 .socialmedia a{
     font-weight: bold;
+    transition: color 0.3 ease;
+    color: var(--accent2-color);
+    text-decoration: none;
 }
 
 .hero { 
@@ -88,21 +91,24 @@ nav, p, section, article {
     font-size: 2rem;
 }
 
+
 .hero article img {
     float: right;
     width: 125px;
 }
+
 .hero article{
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    width: 20%;
-    background-color: var(--accent1-color);
-    color: rgb(239 232 232);
-    padding: 10px;
-    border-radius: 8px;
+    top: 40px;
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.9;
+    color: #e4d6d6;
+    bottom: 200px;
+    padding: 4px;
+    font-size: 0.9rem;
 }
-
 nav ul {
     display: flex;
     list-style: none;
