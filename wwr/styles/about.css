@@ -1,6 +1,6 @@
 /* About page CSS */
 :root { 
-    --primary-color: #006400; /* dark green */
+    --primary-color: #000; /* dark green */
     --secondary-color: #000; /* Black */
     --accent1-color: #556b2f ; /* Dark Olive Green */
     --accent2-color: #ffff; /* black */
@@ -141,7 +141,7 @@ figure {
     margin:30px auto;
     padding: 20px;
     text-align: center; 
-    background-color: olive; 
+    background-color: #556b2f; 
 
 }
 

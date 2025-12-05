@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Contact US | WhiteWater Rafting</title>
+    <title>Contact US | White Water Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <meta name="description"
         content=" Explore adventure with family and friends at whitewater Rafting. Choose your packages: Choose half-day, full-day, or family-friendly.">
@@ -25,7 +25,7 @@
         </nav>
     </header>
     <main>
-        <h1>WhiteWater Rafting</h1>
+        <h1>White Water Rafting</h1>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252543.01074967938!2d-35.12040542181149!3d-8.045677106145135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab196f94e5408b%3A0xe5800ef782bde3a6!2sRecife%2C%20State%20of%20Pernambuco%2C%20Brazil!5e0!3m2!1sen!2sus!4v1764623606078!5m2!1sen!2sus">
         </iframe>
@@ -35,27 +35,33 @@
             <p>+1 801 555 5555</p>
             <p>Info@whitewater.com</p>
         </div>
-        <form class="box" id="ratio" name="ratio">
+        <form class="box" id="contat-form" name="contact-form">
             <div class="items box">
-                <label for="ratio">Name</label>
-                <input type="text" id="ratio" name="ratio">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="required">
             </div>
             <div class="items box">
-                <label for="ratio">Email</label>
-                <input type="email" id="ratio" name="ratio"></textarea>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"></textarea>
             </div>
+            <fieldset class="items box">
+                <legend>Choose One</legend>
+                <label for="Selected Disable">
+                    <input type="radio" id="selected disable" name="message" value="Selected Disable" required>
+                    Selected Disable
+                </label>
+                <label for="General Inquiry">
+                    <input type="radio" id="General Inquity" name="message" value="Selected Disable" required>
+                    General Inquiry
+                </label>
+                <label for="Reservation">
+                    <input type="radio" id="Reservation" name="message" Value="Selected Disable" required>
+                    Reservation
+                </label>
+            </fieldset>
             <div class="items box">
-                <label for="ratio">Please, Chose One</label>
-                <select id="ratio" name="ratio">
-                    <option value="selected disable">Message Purpose</option>
-                    <option value="a">General Inquiry</option>
-                    <option value="b">Reservation</option>
-                    <option value="c">Other</option>
-                </select>
-            </div>
-            <div class="items box">
-                <label for="ratio">Message</label>
-                <textarea id="ratio" name="ratio" rows="4"></textarea>
+                <label for="Message">Message</label>
+                <textarea id="Message" name="Message" rows="4"></textarea>
             </div>
             <button type="submit">Get in Touch!</button>
         </form>
@@ -64,15 +70,15 @@
             <h2>We Are Here To Serve You</h2>
             <figure>
                 <img src="images/employee1.jpeg" alt="Beautiful Half day with adventure">
-                <figcaption>Barbara Targino</figcaption>
+                <figcaption>Barbara Targino - Manager</figcaption>
             </figure>
             <figure>
                 <img src="images/employee2.jpeg" alt="Family fun day with adrenaline">
-                <figcaption>Laura Label</figcaption>
+                <figcaption>Laura Label - Supervisor</figcaption>
             </figure>
             <figure>
                 <img src="images/employee3.jpeg" alt="Super fun rafting time">
-                <figcaption>Hector Muller</figcaption>
+                <figcaption>Hector Muller - Front Desk</figcaption>
             </figure>
         </section>
     </main>
@@ -88,7 +94,7 @@
                 <img src="images/instagram.jpeg" alt="Instagram Icon">
             </a>
         </nav>
-        <p>© 2025 Whitewater Adventure Bruna Beck</p>
+        <p>© 2025 White water Adventure Bruna Beck</p>
     </footer>
 </body>
 
