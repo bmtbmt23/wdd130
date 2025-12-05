@@ -1,3 +1,13 @@
+/* About page CSS */
+:root { 
+    --primary-color: #000; /* dark green */
+    --secondary-color: #000; /* Black */
+    --accent1-color: #047a4b ; /* Dark Olive Green */
+    --accent2-color: #0d0000; /* black */
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, helvetica, sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,52 +18,113 @@ header{
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    background-color: #5d6d42;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    padding: 1rem 2rem;
     width: 100%;
     height: 150px;
     background-position: center;
     padding: 1rem 2rem;
-}   
 
-body{
-    background-color: #f4f4f4; 
-    font-family: Arial, sans-serif;
-    
 }
 
-h1 {
-    width: 100%;
-    text-align: center;
-    color: #000;
-    font-size: 24px;
+header .logo{ 
+    height: 60px;
 }
 
-h2 {
-    width: 100%;
-    text-align: center;
-    color: #000;
-    font-size: 24px;
+body {
+    font-family: var(--body-font);
+    color: var(--secondary-color);
 }
 
-form {
-
-    background-color: #5d6d42;
-    color: #111;
-    padding: 1rem;
-    border-radius: 8px;
-    float: right;
-    margin: 0.5rem;
-    grid-template-columns: 1fr;
-    gap: 100rem;
-    max-width: 500px;
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
 }
 
-.box {
-    border: 2px solid rgb(0 0 0 / 10%);
-    padding: 1rem;
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    gap: 10px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
    
 }
 
+.hero { 
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 { 
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 5px 5px;
+    text-align: center;
+    opacity: 0.8;
+    background-color: var(--accent1-color);
+    color: #efe8e8; 
+    font-size: 2rem;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #0a19e9;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+}
+
+ .h2 {
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.history-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+figure {
+    width: 200x;
+    margin:30px auto;
+    padding: 20px;
+    text-align: center; 
+    
+
+}
 
 figure{
     width: 200px;
@@ -67,17 +138,3 @@ section figure{
     margin: 15px;
 }
 
-.socialmedia{
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px;
-
-}
-
-input, textarea, select  {
-    width: 100px;
-}
