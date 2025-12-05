@@ -64,7 +64,6 @@ nav, p, section, article {
 }
 .socialmedia a{
     font-weight: bold;
-    transition: color 0.3 ease;
     color: var(--accent2-color);
     text-decoration: none;
 }
