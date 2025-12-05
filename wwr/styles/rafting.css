@@ -40,6 +40,7 @@ header, main, footer {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 nav, p, section, article {
@@ -137,6 +138,3 @@ nav a {
     font-weight: bold;
 }
 
-h1, h2 {
-    text-align: center;
-}
