@@ -50,38 +50,42 @@
                     <input type="radio" id="selected disable" name="message" value="Selected Disable" required>
                     Selected Disable
                 </label>
-                <label for="General Inquiry">
-                    <input type="radio" id="General Inquity" name="message" value="Selected Disable" required>
-                    General Inquiry
-                </label>
                 <label for="Reservation">
-                    <input type="radio" id="Reservation" name="message" Value="Selected Disable" required>
+                    <input type="radio" id="Reservation" name="message" value="Selected Disable" required>
                     Reservation
+                </label>
+                <label for="Other">
+                    <input type="radio" id="Other" name="message" Value="Selected Disable" required>
+                    Other
                 </label>
             </fieldset>
             <div class="items box">
                 <label for="Message">Message</label>
-                <textarea id="Message" name="Message" rows="4"></textarea>
+                <textarea id="Message" name="Message" rows="4" required></textarea>
             </div>
-            <button type="submit">Get in Touch!</button>
+            <div class="items box">
+                <label for="checkbox"></label>
+                <input type="checkbox" id="checkbox" name="subscribe" value="yes">
+                Subscribe For Updates!
+                <button type="Submit">Submit Message</button>
         </form>
-
-        <section>
-            <h2>We Are Here To Serve You</h2>
-            <figure>
-                <img src="images/employee1.jpeg" alt="Beautiful Half day with adventure">
-                <figcaption>Barbara Targino - Manager</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee2.jpeg" alt="Family fun day with adrenaline">
-                <figcaption>Laura Label - Supervisor</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee3.jpeg" alt="Super fun rafting time">
-                <figcaption>Hector Muller - Front Desk</figcaption>
-            </figure>
-        </section>
     </main>
+    <section>
+        <h2>We Are Here To Serve You</h2>
+        <figure>
+            <img src="images/employee1.jpeg" alt="Beautiful Half day with adventure">
+            <figcaption>Barbara Targino - Manager</figcaption>
+        </figure>
+        <figure>
+            <img src="images/employee2.jpeg" alt="Family fun day with adrenaline">
+            <figcaption>Laura Label - Supervisor</figcaption>
+        </figure>
+        <figure>
+            <img src="images/employee3.jpeg" alt="Super fun rafting time">
+            <figcaption>Hector Muller - Front Desk</figcaption>
+        </figure>
+    </section>
+
     <footer>
         <nav class="socialmedia">
             <a href="https://facebook.com" aria-label="Look our Facebook page">
@@ -94,6 +98,7 @@
                 <img src="images/instagram.jpeg" alt="Instagram Icon">
             </a>
         </nav>
+
         <p>© 2025 White water Adventure Bruna Beck</p>
     </footer>
 </body>
