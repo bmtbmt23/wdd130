@@ -1,9 +1,9 @@
 /* About page CSS */
 :root { 
-    --primary-color: #000; /* dark green */
+    --primary-color: #fff; /* white */
     --secondary-color: #000; /* Black */
     --accent1-color: #047a4b ; /* Dark Olive Green */
-    --accent2-color: #0d0000; /* black */
+    --accent2-color: #e4d6d6; 
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, helvetica, sans-serif;
 }
@@ -39,7 +39,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
     text-align: center;
 }
 
@@ -142,5 +142,5 @@ nav ul {
 }
 
 nav a{
-    color: #efe8e8;
+    color: #e4d6d6;
 }
