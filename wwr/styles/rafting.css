@@ -1,11 +1,11 @@
 /* About page CSS */
 :root { 
-    --primary-color: #fff; /* white */
+    --primary-color: #e4d6d6; /* off white */
     --secondary-color: #000; /* Black */
     --accent1-color: #047a4b ; /* Dark Olive Green */
-    --accent2-color: #e4d6d6; 
+    --accent2-color: #fff; /* white */
     --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: Arial, helvetica, sans-serif;
+     --body-font: Arial, helvetica, sans-serif;
 }
 
 *{
@@ -142,5 +142,5 @@ nav ul {
 }
 
 nav a{
-    color: #e4d6d6;
+    color: var(--primary-color);  
 }
