@@ -1,3 +1,38 @@
+.box {
+    border: 2px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+   
+}
+
+form.box {
+    max-width: 600px;        
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 3px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: #047a4b;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem;
+    margin-left: auto;
+}
+
+form.box button {
+    grid-column: span 2;  
+    
+}
+
+.tittle-box h1 {
+    color: #000;
+    font-size: 36px;
+}
+.tittle-box{
+    font-family: "Times New Roman", "Georgia";
+    color: #000;
+    text-align: center;
+
+
+}
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +43,7 @@ header{
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    background-color: olivedrab;
+    background-color: #047a4b;
     width: 100%;
     height: 150px;
     background-position: center;
@@ -21,39 +56,12 @@ body{
     
 }
 
-h1 {
+h1, h2{
     width: 100%;
     text-align: center;
     color: #000;
     font-size: 24px;
 }
-
-h2 {
-    width: 100%;
-    text-align: center;
-    color: #000;
-    font-size: 24px;
-}
-
-form {
-
-    background-color: olivedrab;
-    color: #111;
-    padding: 1rem;
-    border-radius: 8px;
-    float: right;
-    margin: 0.5rem;
-    grid-template-columns: 1fr;
-    gap: 100rem;
-    max-width: 500px;
-}
-
-.box {
-    border: 2px solid rgb(0 0 0 / 10%);
-    padding: 1rem;
-   
-}
-
 
 figure{
     width: 200px;
@@ -81,3 +89,5 @@ section figure{
 input, textarea, select  {
     width: 100px;
 }
+
+.tittle-box

@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header{ 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #047a4b;
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    padding: 1rem 2rem;
+}   
+
+.socialmedia{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+
+}
+
+article .img{
+
+float: center;
+
+}
+
