@@ -24,9 +24,14 @@ header {
     padding: 1rem 2rem;
 }
 
+header figure img {
+    height: 120px;
+}
+
 header .logo{ 
  height: 300px;
 }
+
 body {
     font-family: var(--body-font);
     color: var(--secondary-color);
@@ -144,3 +149,4 @@ nav ul {
 nav a{
     color: var(--primary-color);  
 }
+
