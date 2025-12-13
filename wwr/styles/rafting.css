@@ -35,6 +35,7 @@ header .logo{
 body {
     font-family: var(--body-font);
     color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 header, main, footer {
@@ -42,7 +43,7 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2, h3{
     font-family: var(--heading-font);
     color: var(--accent1-color);
     text-align: center;
@@ -113,11 +114,6 @@ nav, p, section, article {
     font-size: 0.9rem;
 }
 
- .h2 {
-    text-align: center;
-    margin: 1.5rem;
-}
-
 .history-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -138,6 +134,7 @@ section figure{
     margin: 15px;
 }
 
+
 nav ul {
     display: flex;
     list-style: none;
@@ -148,5 +145,96 @@ nav ul {
 
 nav a{
     color: var(--primary-color);  
+}
+
+/* Contact */
+
+form.box button {
+    grid-column: span 2;  
+    
+}
+
+.tittle-box h1 {
+    color: #000;
+    font-size: 36px;
+}
+.tittle-box{
+    display: flex;
+    font-family: "Times New Roman", "Georgia";
+    color: #000;
+    text-align: center;
+
+
+}
+
+input, textarea, select  {
+    width: 100px;
+}
+
+.employees {
+   text-align:center;
+}
+
+/* index */ 
+
+section, article, p {
+    margin: 16px;
+    padding: 8px;
+}
+
+
+footer {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    text-align: center;
+   
+}
+
+
+.box {
+    background-color: var(--accent2-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 2px solid var(--accent1-color);
+    text-align: center;
+}
+
+form .row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+form.box button {
+    grid-column: span 2;  
+}
+input, textarea, select { 
+    width: 100%;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.package-grid{
+    display: grid;
+    gap: 1.2rem;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.article{
+   text-align:center;
+   display: inline-block;
+   margin: 1rem;
+}
+
+.pictures{
+    display: flex;
 }
 

@@ -1,9 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .box {
     border: 2px solid rgb(0 0 0 / 10%);
     padding: 1rem;
    
 }
 
+header{ 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #047a4b;
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    padding: 1rem 2rem;
+}   
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
 form.box {
     max-width: 600px;        
     margin: 2rem auto;
@@ -27,28 +49,13 @@ form.box button {
     font-size: 36px;
 }
 .tittle-box{
+    display: flex;
     font-family: "Times New Roman", "Georgia";
     color: #000;
     text-align: center;
 
 
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header{ 
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    background-color: #047a4b;
-    width: 100%;
-    height: 150px;
-    background-position: center;
-    padding: 1rem 2rem;
-}   
 
 body{
     background-color: #f4f4f4; 
@@ -89,3 +96,20 @@ section figure{
 input, textarea, select  {
     width: 100px;
 }
+
+footer {
+    background-color: #047a4b;
+    color: #fff;
+    text-align: center;
+   
+}
+
+.employees {
+   text-align:center;
+}
+
+.employees figure{
+    display: inline-block;
+    margin: 1rem;
+}
+
